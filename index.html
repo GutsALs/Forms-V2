@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário V2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="column">
+            <div class="input-box">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="Digite seu email" required>
+            </div>
+
+            <div class="input-box">
+                <label for="remail">Repetir Email</label>
+                <input type="email" name="remail" id="remail" placeholder="Repita o email" required>
+            </div>
+
+            <h1>Dados cadastrais</h1>
+
+            <div class="input-checkbox">
+                <div class="type-person">
+                    <label for="fisica">Pessoa Física</label>
+                    <input type="radio" name="fisica" id="fisica">
+                    <label for="juridica">Pessoa Jurídica</label>
+                    <input type="radio" name="juridica" id="juridica">
+                </div>
+            </div>
+
+            <div class="input-box">
+                <label for="name">Nome</label>
+                <input type="text" name="fname" id="fname" placeholder="Nome" required>
+            </div>
+
+            <div class="input-box">
+                <label for="name">Sobrenome</label>
+                <input type="text" name="lname" id="lname" placeholder="Sobrenome" required>
+            </div>
+
+            <div class="input-box">
+                <label for="sexo">Sexo</label>
+                <select id="cars" name="cars">
+                    <option value="male">Masculino</option>
+                    <option value="female">Feminino</option>
+                    <option value="any">Prefiro não dizer</option>
+                </select>
+            </div>
+
+            <div class="input-box">
+                <label for="cpf">CPF</label>
+                <input type="number" name="cpf" id="cpf" placeholder="XXX.XXX.XXX-XX" required>
+            </div>
+
+            <div class="input-box">
+                <label for="tel">Telefone</label>
+                <input type="number" name="tel" id="tel" placeholder="XXXX-XXX-XXXX" required>
+            </div>
+
+            <div class="input-box">
+                <label for="cel">Celular</label>
+                <input type="number" name="cel" id="cel" placeholder="(XX)XXXXX-XXXX" required>
+            </div>
+
+            <div class="input-box">
+                <label for="nas">Nascimento</label>
+                <input type="date" name="nas" id="nas" required>
+            </div>
+
+            <div class="input-checkbox">
+                <input type="checkbox" name="new" id="new">
+                <label for="new">Receber novidade</label>
+            </div>
+
+            <div class="button-submit">
+                <button>Cadastrar</button>
+            </div>
+
+        </div>
+        <div class="column">
+            <div class="input-box">
+                <label for="password">Criar uma senha</label>
+                <input type="password" name="password" id="password" placeholder="Digite uma senha" required>
+            </div>
+
+            <div class="input-box">
+                <label for="rpassword">Repetir Senha</label>
+                <input type="password" name="rpassword" id="rpassword" placeholder="Repite sua senha" required>
+            </div>
+
+            <h1>Endereço de Entrega</h1>
+
+            <div class="input-box">
+                <label for="cep">CEP</label>
+                <input type="number" name="cep" id="cep" placeholder="XXXXX-XXX">
+            </div>
+
+            <div class="input-box">
+                <label for="cep">CEP</label>
+                <input type="number" name="cep" id="cep" placeholder="XXXXX-XXX">
+            </div>
+
+            <div class="input-box">
+                <label for="cep">CEP</label>
+                <input type="number" name="cep" id="cep" placeholder="XXXXX-XXX">
+            </div>
+
+            <div class="input-checkbox">
+                <input type="checkbox" name="cep" id="cep">
+                <label for="cep">Sem número</label>
+            </div>
+
+            <div class="input-box">
+                <label for="comp">Complemento</label>
+                <input type="text" name="comp" id="comp">
+            </div>
+
+            <div class="input-box">
+                <label for="ref">Referencia</label>
+                <input type="text" name="ref" id="ref">
+            </div>
+
+            <div class="input-box">
+                <label for="bairro">Bairrro</label>
+                <input type="text" name="bairro" id="bairro">
+            </div>
+
+            <div class="input-box">
+                <label for="city">Cidade</label>
+                <input type="text" name="city" id="city">
+            </div>
+
+            <div class="input-box">
+                <label for="state">Estado</label>
+                <input type="text" name="state" id="state">
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
